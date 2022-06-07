@@ -1,0 +1,23 @@
+created: 20220607032121258
+modified: 20220607032445013
+title: 20220607032121258
+type: text/vnd.tiddlywiki
+
+(function(){
+
+    /*jslint node: true, browser: true */
+    /*global $tw: false */
+    "use strict";
+    
+    exports["omnisplit"] = function(event,operation) {
+        var editTiddler = this.wiki.getTiddler(this.editTitle),
+            editTiddlerTitle = this.editTitle,
+            textEnd = operation.text.length,
+            beforeSlice = operation.text.substring(0, operation.selStart).trimEnd(),
+            highlight = operation.selection,
+            afterSlice = operation.text.substring(operation.selEnd).trimStart(),
+            newTidTitleRoot = event.paramObject.title || this.getVariable("currentTiddler");
+            // currentTitle = this.getVariable("currentTiddler");
+        if(editTiddler && editTiddler.fields["draft.of"]) {
+            editTiddlerTitle = editTiddler.fields["draft.of"];
+        }

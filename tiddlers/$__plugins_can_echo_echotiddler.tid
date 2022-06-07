@@ -1,0 +1,9 @@
+created: 20220607032541962
+modified: 20220607032541963
+tags: not$:/tags/PageTemplate
+title: $:/plugins/can/echo/echotiddler
+type: text/vnd.tiddlywiki
+
+<div class="echo-container">
+{{!!logs}}
+</div><br><br>numtids  1<br><br>label=  testlabel
