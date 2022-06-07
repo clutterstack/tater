@@ -1,0 +1,11 @@
+created: 20220607004941640
+key: ((omni-move-up))
+modified: 20220607005002604
+omni-shortcut: yep
+tags: 
+title: $:/plugins/can/omni/kbshortcuts/omni-move-up
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/can/omni/shortcut-actions
+
+<<omni-move-up>>
