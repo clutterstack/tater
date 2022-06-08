@@ -1,0 +1,8 @@
+annot: Ha! I left a console.log in there. Also, my splitting module isn't very smart about how it trims whitespace.
+created: 20220608041159360
+modified: 20220608041250593
+tags: [[$:/state/can/omni/editstate/20220608040557820-A part of a TiddlyWiki JS module]]
+title: 20220608040518014-3-2
+type: text/vnd.tiddlywiki
+
+            console.log("datestamp: " + dateStamp);

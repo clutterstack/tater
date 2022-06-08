@@ -1,0 +1,16 @@
+annot-lang: golang
+created: 20220608010442975
+modified: 20220608040242074
+omni-list: 20220608025037279-1-1-2-1 20220608025037279-1-1-2-1-1 20220608025037279-1-1-2-1-2 20220608025037279-1-1-2-1-2-1 20220608025037279-1-1-2-1-2-2 20220608025037279-1-1-2-1-2-2-1 20220608025037279-1-1-2-1-2-2-2 20220608025037279-1-1-2-1-2-2-3 20220608025037279-1-1-2-1-2-3 20220608025037279-1-1-2-1-3
+omnibus-mode: annot
+savetitle: 20220608025037279
+tags: 
+title: New Tiddler 1
+type: text/vnd.tiddlywiki
+
+Still have to copy the annot from the orig tiddler to the new one when splitting (can I clone it, then change its times and title, then insert the right text?)
+1
+2
+3
+4
+5

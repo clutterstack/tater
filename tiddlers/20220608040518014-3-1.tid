@@ -1,0 +1,7 @@
+created: 20220608041159359
+modified: 20220608041159359
+tags: [[$:/state/can/omni/editstate/20220608040557820-A part of a TiddlyWiki JS module]]
+title: 20220608040518014-3-1
+type: text/vnd.tiddlywiki
+
+var firsthalfTitle = this.wiki.generateNewTitle(newTidTitleRoot + "-1");

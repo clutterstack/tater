@@ -1,0 +1,8 @@
+annot: This is for the case where there's no highlighted text but the cursor's somewhere in the middle.
+created: 20220608040557818
+modified: 20220608040647888
+tags: [[$:/state/can/omni/editstate/20220608040518014-A part of a TiddlyWiki JS module]]
+title: 20220608040518014-1
+type: text/vnd.tiddlywiki
+
+ if (highlight.length == 0 && operation.selStart > 0 && operation.selStart < textEnd) { // if selection length is zero and it's in the middle somewhere, we split the tiddler in two.

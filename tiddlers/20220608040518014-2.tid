@@ -1,0 +1,9 @@
+annot: I think these have become irrelevant. This module is technically still a TiddlyWiki text operation module, but it doesn't make a lot of use of the format.
+created: 20220608040557819
+modified: 20220608040716946
+tags: [[$:/state/can/omni/editstate/20220608040518014-A part of a TiddlyWiki JS module]]
+title: 20220608040518014-2
+type: text/vnd.tiddlywiki
+
+            operation.cutStart = 0;
+            operation.cutEnd = textEnd;

@@ -1,0 +1,17 @@
+created: 20220608041159361
+modified: 20220608041159361
+tags: [[$:/state/can/omni/editstate/20220608040557820-A part of a TiddlyWiki JS module]]
+title: 20220608040518014-3-3
+type: text/vnd.tiddlywiki
+
+this.wiki.addTiddler(new $tw.Tiddler( // first half goes in new tiddler
+                this.wiki.getTiddler(this.getVariable("currentTiddler")),
+                {
+                    created: dateStamp,
+                    modified: dateStamp,
+                    title: firsthalfTitle,
+                    text: beforeSlice,
+                    tags: event.paramObject.tagnew === "yes" ?  [editTiddlerTitle] : []
+                }
+            ));
+            this.wiki.deleteTiddler(this.getVariable("currentTiddler"));
