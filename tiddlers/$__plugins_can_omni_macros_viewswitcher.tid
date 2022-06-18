@@ -1,5 +1,5 @@
 created: 20220607220920667
-modified: 20220607221037604
+modified: 20220617231857871
 tags: $:/tags/Macro
 title: $:/plugins/can/omni/macros/viewswitcher
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 \define omni-viewswitcher()
     <div class="can-omni-viewswitcher">
-        <$button set="!!omnibus-mode" setTo="annot-view" class="omni-button" selectedClass="omni-button-selected" tooltip="annotation view mode" aria-label="annotation view mode">annot-view</$button>
+        <$button set="!!omnibus-mode" setTo="annot-view" class="omni-button" selectedClass="omni-button-selected" tooltip="annotation view mode" aria-label="annotation view mode">annot-view</$button>        	           <$button set="!!omnibus-mode" setTo="output-html-table" class="omni-button" selectedClass="omni-button-selected" tooltip="html/table output mode" aria-label="html/table output mode">annot-html-table</$button>
         <$button set="!!omnibus-mode" setTo="output-html" class="omni-button" selectedClass="omni-button-selected" tooltip="html output mode" aria-label="html output mode">annot-html</$button>
         <$button set="!!omnibus-mode" setTo="output-html-md" class="omni-button" selectedClass="omni-button-selected" tooltip="html/md output mode" aria-label="html/md output mode">annot-html/md</$button>
         <$button set="!!omnibus-mode" setTo="annot" class="omni-button" selectedClass="omni-button-selected" tooltip="annotation mode" aria-label="annotation mode">annot</$button>

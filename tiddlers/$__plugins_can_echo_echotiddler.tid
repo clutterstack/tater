@@ -1,9 +1,7 @@
-created: 20220607211045006
-modified: 20220607211758194
+created: 20220611220313879
+modified: 20220617195912723
 tags: not$:/tags/PageTemplate
 title: $:/plugins/can/echo/echotiddler
 type: text/vnd.tiddlywiki
 
-<div class="echo-container">
-{{!!logs}}
-</div><br><br>numtids  2<br><br>label=  testlabel<br><br>numtids  3<br><br>label=  testlabel<br><br>numtids  2<br><br>label=  testlabel
+<br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   20220612012242520-1<br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   <br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   <br><br>current:   20220612012242520-2<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612024805458<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612024814640-3<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612025022598-3<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025153522-1<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025220738-3<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025227636-1<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1
