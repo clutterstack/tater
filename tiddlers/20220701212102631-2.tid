@@ -1,9 +1,18 @@
-annot: The timestamps are a fudge. The first tiddler generated gets a generated timestamp. `dateStamp2` has a microsecond added to that, because the omni plugin likes to use the created field as an identifier. Deal with it.
+annot: The timestamps are a fudge. The first tiddler generated gets a generated timestamp. `dateStamp2` has a millisecond added to that, because the omni plugin likes to use the created field as an identifier. Deal with it.
 created: 20220701212102633
 dragstarttiddler: Example: Part of a JS TiddlyWiki module
-modified: 20220702005416441
+modified: 20220702025637691
 tags: 
 title: 20220701212102631-2
 type: text/vnd.tiddlywiki
 
         created: dateStamp2,
+        modified: dateStamp2,
+				title: secondhalfTitle,
+        text: afterSlice,
+        tags: event.paramObject.tagnew === "yes" ?  [editTiddlerTitle] : []
+    }
+));
+const editstatetid = "$:/state/can/omni/editstate/"+$tw.utils.stringifyDate(dateStamp2)+"-"+this.getVariable("baseomni");
+this.wiki.setText(editstatetid,"editstate","","edit");
+this.wiki.setText(editstatetid,"text","",afterSlice);      this.wiki.setText(editstatetid,"throttle.refresh","","yes");

@@ -1,7 +1,0 @@
-created: 20220701213135732
-modified: 20220701213205553
-tags: 
-title: 20220701213135731-1
-type: text/vnd.tiddlywiki
-
-const editstatetid = "$:/state/can/omni/editstate/"+$tw.utils.stringifyDate(dateStamp2)+"-"+this.getVariable("baseomni");

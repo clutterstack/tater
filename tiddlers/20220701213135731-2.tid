@@ -1,8 +1,0 @@
-created: 20220701213135733
-modified: 20220701213214143
-tags: 
-title: 20220701213135731-2
-type: text/vnd.tiddlywiki
-
-this.wiki.setText(editstatetid,"editstate","","edit");
-this.wiki.setText(editstatetid,"text","",afterSlice);           this.wiki.setText(editstatetid,"throttle.refresh","","yes");

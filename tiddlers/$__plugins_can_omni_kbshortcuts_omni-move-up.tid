@@ -1,8 +1,8 @@
 created: 20220607004941640
 key: ((omni-move-up))
-modified: 20220702010542135
+modified: 20220702025627916
 omni-shortcut: yep
-tags: $:/tags/KeyboardShortcut
+tags: 
 title: $:/plugins/can/omni/kbshortcuts/omni-move-up
 type: text/vnd.tiddlywiki
 
