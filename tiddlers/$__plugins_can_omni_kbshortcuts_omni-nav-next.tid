@@ -1,8 +1,8 @@
 created: 20220607004941641
 key: ((omni-nav-next))
-modified: 20220617195921643
+modified: 20220702010542135
 omni-shortcut: yep
-tags: 
+tags: $:/tags/KeyboardShortcut
 title: $:/plugins/can/omni/kbshortcuts/omni-nav-next
 type: text/vnd.tiddlywiki
 

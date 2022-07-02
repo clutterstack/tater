@@ -1,0 +1,9 @@
+created: 20220701212102632
+modified: 20220701213337487
+tags: 
+title: 20220701212102631-1
+type: text/vnd.tiddlywiki
+
+newTidsList.push(secondhalfTitle);
+this.wiki.addTiddler(new $tw.Tiddler( // second half goes in new tiddler
+    {

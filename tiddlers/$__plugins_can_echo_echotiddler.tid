@@ -1,7 +1,9 @@
-created: 20220611220313879
-modified: 20220617195912723
+created: 20220626183009385
+modified: 20220626190636897
 tags: not$:/tags/PageTemplate
 title: $:/plugins/can/echo/echotiddler
 type: text/vnd.tiddlywiki
 
-<br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   20220612012242520-1<br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   <br><br>current:   20220612012242520-1<br><br>oldcurrent before list:   <br><br>current:   20220612012242520-2<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612024805458<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612024814640-3<br><br>oldcurrent before list:   <br><br>index:   1<br><br>index:   2<br><br>index:   3<br><br>current:   20220612025022598-3<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025153522-1<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025220738-3<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1<br><br>current:   20220612025227636-1<br><br>oldcurrent before list:   <br><br>index:   3<br><br>index:   2<br><br>index:   1
+<div class="echo-container">
+{{!!logs}}
+</div><br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  20220626183421151-1 20220626183421151-2<br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  <br><br>$:/state/can/omni/split contents:  20220626190633790-1 20220626190633790-2

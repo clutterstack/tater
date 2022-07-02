@@ -1,5 +1,5 @@
 created: 20220607220920667
-modified: 20220617231857871
+modified: 20220702004528904
 tags: $:/tags/Macro
 title: $:/plugins/can/omni/macros/viewswitcher
 type: text/vnd.tiddlywiki
@@ -8,12 +8,16 @@ type: text/vnd.tiddlywiki
 
 \define omni-viewswitcher()
     <div class="can-omni-viewswitcher">
-        <$button set="!!omnibus-mode" setTo="annot-view" class="omni-button" selectedClass="omni-button-selected" tooltip="annotation view mode" aria-label="annotation view mode">annot-view</$button>        	           <$button set="!!omnibus-mode" setTo="output-html-table" class="omni-button" selectedClass="omni-button-selected" tooltip="html/table output mode" aria-label="html/table output mode">annot-html-table</$button>
-        <$button set="!!omnibus-mode" setTo="output-html" class="omni-button" selectedClass="omni-button-selected" tooltip="html output mode" aria-label="html output mode">annot-html</$button>
-        <$button set="!!omnibus-mode" setTo="output-html-md" class="omni-button" selectedClass="omni-button-selected" tooltip="html/md output mode" aria-label="html/md output mode">annot-html/md</$button>
+		
+		        <!--<$button set="!!omnibus-mode" setTo="output-md" class="omni-button" selectedClass="omni-button-selected" tooltip="md table output mode" aria-label="md table output mode">annot-md</$button>-->
+
+         <!--<$button set="!!omnibus-mode" setTo="output-html-table" class="omni-button" selectedClass="omni-button-selected" tooltip="html/table output mode for annotated subtids" aria-label="html table output mode for annotated subtids">annot-html-table</$button>-->
+				 
+        <!--<$button set="!!omnibus-mode" setTo="output-html" class="omni-button" selectedClass="omni-button-selected" tooltip="html output mode" aria-label="html output mode">annot-html</$button>-->
+				
+        <$button set="!!omnibus-mode" setTo="output-html-md" class="omni-button" selectedClass="omni-button-selected" tooltip="html/md output mode" aria-label="html/md output mode">html/md</$button>
+				
         <$button set="!!omnibus-mode" setTo="annot" class="omni-button" selectedClass="omni-button-selected" tooltip="annotation mode" aria-label="annotation mode">annot</$button>
         <$button set="!!omnibus-mode" setTo="kbnav" class="omni-button" selectedClass="omni-button-selected" tooltip="kbnav" aria-label="kbnav">kbnav</$button>
-        <$button set="!!omnibus-mode" setTo="cleanmap" class="omni-button" selectedClass="omni-button-selected" tooltip="cleanmap" aria-label="cleanmap">cleanmap</$button>
-        <$button set="!!omnibus-mode" setTo="min" class="omni-button" selectedClass="omni-button-selected" tooltip="min" aria-label="min">min</$button>
 \end
 

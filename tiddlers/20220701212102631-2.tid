@@ -1,0 +1,9 @@
+annot: The timestamps are a fudge. The first tiddler generated gets a generated timestamp. `dateStamp2` has a microsecond added to that, because the omni plugin likes to use the created field as an identifier. Deal with it.
+created: 20220701212102633
+dragstarttiddler: Example: Part of a JS TiddlyWiki module
+modified: 20220702005416441
+tags: 
+title: 20220701212102631-2
+type: text/vnd.tiddlywiki
+
+        created: dateStamp2,

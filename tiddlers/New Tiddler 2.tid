@@ -1,7 +1,0 @@
-created: 20220611223210528
-modified: 20220612010922997
-tags: 
-title: New Tiddler 2
-type: text/vnd.tiddlywiki
-
- <$list filter='[{$:/state/can/omni/split}enlist-input[]order[reverse]]' />

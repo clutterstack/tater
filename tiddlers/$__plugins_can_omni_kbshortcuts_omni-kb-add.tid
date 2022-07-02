@@ -1,8 +1,8 @@
 created: 20220607004941640
 key: ((omni-kb-add))
-modified: 20220617195921641
+modified: 20220702010542133
 omni-shortcut: yep
-tags: 
+tags: $:/tags/KeyboardShortcut
 title: $:/plugins/can/omni/kbshortcuts/omni-kb-add
 type: text/vnd.tiddlywiki
 

@@ -9,8 +9,9 @@
         "flibbles/relink",
         "clutterstack/echo",
         "clutterstack/omniv2",
+        "clutterstack/onetopic",
         "clutterstack/omnitools",
-        "clutterstack/clutterstack_theme"
+        "clutterstack/omni_theme"
     ],
     "themes": [
         "tiddlywiki/vanilla",

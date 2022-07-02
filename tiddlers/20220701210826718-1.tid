@@ -1,0 +1,8 @@
+annot: Getting rid of the tiddler whose title is held in the variable `currentTiddler`
+created: 20220701210826719
+modified: 20220701212117443
+tags: 
+title: 20220701210826718-1
+type: text/vnd.tiddlywiki
+
+this.wiki.deleteTiddler(this.getVariable("currentTiddler"));

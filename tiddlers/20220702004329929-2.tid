@@ -1,0 +1,11 @@
+created: 20220702004329933
+modified: 20220702004329933
+tags: 
+title: 20220702004329929-2
+type: text/vnd.tiddlywiki
+
+        title: secondhalfTitle,
+        text: afterSlice,
+        tags: event.paramObject.tagnew === "yes" ?  [editTiddlerTitle] : []
+    }
+));
